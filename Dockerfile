@@ -31,4 +31,4 @@ RUN ./mvnw clean package -DskipTests
 EXPOSE 8082
 
 # Comando para executar a aplicação
-CMD ["java", "-jar", "target/service-notification-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/service.notification-0.0.1-SNAPSHOT.jar"]
